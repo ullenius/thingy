@@ -5,10 +5,18 @@ made by necrosaro
 
 WHATS NEW
 ---------
-
-NOTE: No readme file was found in the 2001 version so this is the readme
-that was included in the 98 version.
-
+Version 1.01- Yay, Thingy has released version 1 because I doubt I'll be
+             releasing any new versions unless I create an entirely new
+             program (which isn't completely out of the question).
+             And the .01 is because it's the year 2001!
+             3 YEARS since the last release! How's that for laziness!
+             I really have no idea what's new in this one, random fixes I've
+             applied to my personal Thingy over the past three years
+             (no innuendo intended!).
+            - Pointer-based script dumping. Press the 'P' key.
+            - Probably a couple fixes to the DTE insertion support.
+            - Random bugfixes and changes, including a little clean-up of the
+             (cough cough) "user interface".
 Version 0.98- Pointer calculator support (& table file entry)!
              currently it works along with the inserter, not standalone.
             - Inserter changed around a bit, now it will be able to insert
@@ -103,7 +111,7 @@ Version 0.0  First release, the generic ROM editor with the DTE support!
 
 **Some keys you might like to know...
 
-IN THE EDITOR
+IN THE EDITOR/SEARCHER
 -------------
 ~     automatic DTE on/off. If it's off, the program will ask you every
       time it detects a DTE can be used.
@@ -132,6 +140,15 @@ I      Text inserter. First time it'll bring you into a lightbar-ish menu,
        if you want to insert text to a file dump (which you probably don't)
        select "insert to file". if you want to insert from a file to the
        ROM, select the insert bookmark entry with the lightbar.
+
+P      Pointer-based script dump. Go to the start of the pointer table,
+       press "p", go to the end of the pointer table, press "p" again, and
+       go to the start of the script, and press "p" a third time. You get a
+       nice, clean, correctly-ordered script that's dumped based on the
+       pointers in the pointer table!
+       Note: Depending on the way the pointer table is set up, this may
+       produce duplicate copies of certain strings if there is more than
+       one pointer for them.
 
 J      Jump to a different address in the ROM. It'll bring up a lightbar
        menu. To jump to a preset location select its name and press ENTER.
@@ -285,4 +302,4 @@ a VERY general pointer generator routine one of these days...
 
 
 If you need any more help to get it to work or if you have any suggestions,
-go ahead and e-mail me at radimvice@geocities.com (NOTE THE NEW ADDRESS!)
+go ahead and e-mail me at radimvice@geocities.com.
